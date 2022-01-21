@@ -655,6 +655,7 @@ input[type="submit"]:focus {
   -moz-background-size: 6px 6px;
   background-size: 6px 6px;
   z-index: 0;
+  
 }
 
 
@@ -3005,8 +3006,19 @@ blockquote {
   .title-block .sp-subtitle {
     font-size: 18px;
   }
-  .displaynone{
-    display: none;
-  }
+  
+ 
 }
 
+.displaynone{
+  display: none;
+}
+.page-title:after{
+  display:none;
+}
+.block-title:after{
+  display:none
+}
+.header-photo:after{
+  display: none;
+}
