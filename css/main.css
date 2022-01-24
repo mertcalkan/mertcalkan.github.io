@@ -1342,7 +1342,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .skills-second-style .skill-container.skill-5 .skill-percentage {
-  width: 90%;
+  width: 70%;
 }
 
 .skills-second-style .skill-container.skill-6 .skill-percentage {
@@ -1358,10 +1358,10 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .skills-second-style .skill-container.skill-9 .skill-percentage {
-  width: 15%;
+  width: 20%;
 }
 .skills-second-style .skill-container.skill-10 .skill-percentage {
-  width: 90%;
+  width: 100%;
 }
 .skills-second-style .skill-container.skill-11 .skill-percentage {
   width: 75%;
@@ -3029,13 +3029,13 @@ blockquote {
   display: none;
 }
 .value-mail{
-color : white;
+color :white;
 }
 .value-mail:hover{
   color:#04b4e0;
 }
 .youtube-link{
-color : white;  
+color :white;  
 }
 .youtube-link:hover{
 color :#04b4e0;  
