@@ -3043,3 +3043,14 @@ color :#04b4e0;
 .hdr-buttons{
   flex-direction: column;  
 }
+.project-text:hover{
+color :#04b4e0;  
+transition: 0.3ds ease-in-out;
+}
+.icon-project{
+  color :#04b4e0;  
+    font-size:40px;
+    position: relative;
+    bottom:15px;
+  
+}
