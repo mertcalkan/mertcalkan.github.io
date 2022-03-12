@@ -504,6 +504,31 @@ input[type="submit"]:focus {
   font-size: 12px;
   text-align: center;
 }
+@media (min-width:1026px) and (max-width:1280px){
+  .header .copyrights {
+   color: #bbb;
+   width: 380px;
+   position: absolute;
+   bottom: 5px;
+   left: -17.5px;
+   padding: 5px 10px 15px;
+   line-height: 14px;
+   font-size: 12px;
+   text-align: center;
+ } 
+ .header-content{
+   position:relative;
+   bottom:23px;
+ }
+ .header-buttons{
+   position:relative;
+   bottom:40px;
+ }
+ .social-links{
+   position:relative;
+   bottom:30px;
+ }
+}
 
 /* ------------------------------------------------------------
 5. Page Content
