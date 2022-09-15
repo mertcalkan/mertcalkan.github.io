@@ -3079,3 +3079,7 @@ transition: 0.3ds ease-in-out;
     bottom:15px;
   
 }
+#experience-text:hover{
+  color :#04b4e0;  
+  transition: 0.3ds ease-in-out;
+  }

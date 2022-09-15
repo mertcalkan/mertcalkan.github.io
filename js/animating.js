@@ -39,6 +39,15 @@ var PageTransitions = (function ($, options) {
                 $('section[data-id='+ pageStart +']').addClass('section-active');
             }
         });
+        function keyPress(){
+            $('.animated-section').keypress(function(event){
+                var keycode = (event.keyCode ? event.keyCode : event.which);
+                if(keycode == '13'){
+                  alert('You pressed a "enter" key in somewhere');  
+                }
+              });
+            }
+        
 
         // Adding click event to main menu link
         $('.nav-anim').on("click", function (e) {
@@ -53,9 +62,14 @@ var PageTransitions = (function ($, options) {
             Animate( pageTrigger );
 
             location.hash = $(this).attr('href');
-
+            
+                keyPress();
         });
+       
+        
+       
 
+         
         window.onhashchange = function(event) {
             if(location.hash) {
                 if (isAnimating) {
@@ -88,7 +102,20 @@ var PageTransitions = (function ($, options) {
             if ( activeItem.is(':last-child') ) {
                 $('.main-menu li:first-child').children("a").click();
             }
+            window.onhashchange = function(event) {
+                if(location.hash) {
+                    if (isAnimating) {
+                        return false;
+                    }
+                    var menuLink = $(menu+' a[href*="'+location.hash.split('/')[0]+'"]');
+                    activeMenuItem( menuLink );
+                    Animate(menuLink);
+    
+                    ajaxLoader();
+                }
+            };
         });
+        
 
         $(".lmpixels-arrow-left").click(function() {
             var activeItem = $('.main-menu a.active').parent("li");
@@ -96,8 +123,33 @@ var PageTransitions = (function ($, options) {
             if ( activeItem.is(':first-child') ) {
                 $('.main-menu li:last-child').children("a").click();
             }
+            window.onhashchange = function(event) {
+                if(location.hash) {
+                    if (isAnimating) {
+                        return false;
+                    }
+                    var menuLink = $(menu+' a[href*="'+location.hash.split('/')[0]+'"]');
+                    activeMenuItem( menuLink );
+                    Animate(menuLink);
+    
+                    ajaxLoader();
+                }
+            };
         });
-    }
+    
+    
+    
+       
+    
+        
+       
+       
+        
+    
+      };
+      
+    
+    
 
     function getActiveSection() {
         if(location.hash === "") {
@@ -478,6 +530,10 @@ var PageTransitions = (function ($, options) {
             // NEXT PAGE
             currentPageId = gotoPage;
 
+          
+                
+            
+
             // Check if the current page is same as the next page then do not do the animation
             // else reset the 'isAnimatiing' flag
             if (tempPageIndex != currentPageId) {
@@ -535,5 +591,8 @@ var PageTransitions = (function ($, options) {
     return {
         init : init,
     };
-
-})(jQuery);
+    
+})
+    
+    (jQuery);
+  
