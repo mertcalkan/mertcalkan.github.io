@@ -3083,3 +3083,10 @@ transition: 0.3ds ease-in-out;
   color :#04b4e0;  
   transition: 0.3ds ease-in-out;
   }
+
+@media screen and (min-width: 1025px) {
+    .social-links.mobile{
+      display : none;
+    }
+}
+  
