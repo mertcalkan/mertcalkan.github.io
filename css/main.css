@@ -1391,6 +1391,9 @@ textarea.form-control, textarea.form-control:focus {
 .skills-second-style .skill-container.skill-11 .skill-percentage {
   width: 75%;
 }
+.skills-second-style .skill-container.skill-sapui5 .skill-percentage {
+  width: 45%;
+}
 
 /* --- End of Skills Values --- */
 
