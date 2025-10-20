@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "about": "Hakkımda",
+    "resume": "Özgeçmiş",
+    "projects": "Projeler",
+    "experience": "Deneyim",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "greeting": "Frontend Geliştirici",
+    "name": "Mert Calkan",
+    "description": "Yaratıcı eğitim teknolojileri ve kodlama alanındaki tutkumu, modern ve responsive web uygulamaları geliştirme yeteneğimle birleştirerek öğrenciler için değer yaratan, etkileşimli deneyimler oluşturuyorum.",
+    "downloadCV": "CV İndir",
+    "contact": "İletişim"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "description": "React, TypeScript ve modern web teknolojileri ile uygulamalar yapan tutkulu bir frontend geliştiriciyim. Fark yaratan sezgisel ve erişilebilir web uygulamaları oluşturmayı seviyorum. Yaratıcılığın bulunduğu yazılımlarına da büyük bir ilgim var."
+  },
+  "resume": {
+    "title": "Özgeçmiş",
+    "education": {
+      "title": "Eğitim",
+      "items": [{
+        "degree": "Yazılım Geliştirme Lisans Programı",
+        "school": "Yeditepe Üniversitesi ",
+        "year": "2020-2024",
+        "description": "2.92 ortalama ile mezun oldum."
+      }]
+    },
+    "technologies": {
+      "title": "Teknolojiler",
+      "items": ["HTML", "CSS", "JavaScript", "TypeScript", "Python", "VS Code", "Vite"]
+    },
+    "frameworks": {
+      "title": "Framework'ler ve Kütüphaneler",
+      "items": ["React", "Next.js", "Node.js", "Express", "TypeScript", "Tailwind CSS" ,"Mediapipe","Three.js","p5.js" , "ml5.js"]
+    },
+    "languages": {
+      "title": "Diller",
+      "items": [{
+          "language": "Türkçe",
+          "level": "Anadil"
+        },
+        {
+          "language": "İngilizce",
+          "level": "B2 Seviyesi"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projelerim",
+    "seeMore": "Daha Fazla",
+    "viewProject": "Projeyi Görüntüle",
+    "items": [{
+        "id": "project-1",
+        "title": "Artortihm",
+        "shortDescription": "Yaratıcı kodlama eğitimi için oluşturduğum tanıtım amaçlı landing page web sitesi.",
+       
+        "image": "/src/assets/artortihm.png",
+        "url": "https://artortihm.netlify.app"
+      },
+      {
+        "id": "project-2",
+        "title": "Artortihm Edu",
+        "shortDescription": "Çocuk gelişimi odaklı geliştirdiğim interaktif kamera oyunlu eğitim projesi.   ",
+     
+        "image": "/src/assets/artortihmedu.png",
+        "url": "https://artorithm-edu.netlify.app"
+      }
+      
+      
+    ]
+  },
+  "experience": {
+    "title": "Deneyim",
+    "items": [{
+        "position": "Frontend Geliştirici",
+        "company": "Rast Software",
+        "period": "2022 - 2024",
+        "description": "Neptune DXP low-code platformu, SAPUI5 ve vanilla JavaScript çözümleri kullanarak frontend uygulamaları geliştirdi.",
+        "highlights": [
+            "Built 3 interconnected web applications for creative coding education",
+            "Integrated advanced technologies like Mediapipe, Three.js, and p5.js",
+            "Created interactive camera-based games for child development"
+          ]
+      }
+    ],
+   
+  "projectExperience": {
+    "title": "Proje Deneyimi",
+    "items": [
+      {
+        "title": "DEWA Döküman Yönetim Sistemi (DMS)",
+        "description": "Kurumsal doküman yönetimi için arayüz ve entegrasyon çözümleri.",
+        "highlights": [
+          "Neptune DXP üzerinde kullanıcı arayüzünü ve frontend-backend entegrasyonunu sağladım.",
+          "Proje için Dubai'de bulundum.",
+          "Principal Propagation ve X.509 istemci sertifikası kullanarak SSO (Tek Oturum Açma) kimlik doğrulaması konfigürasyonlarında yardım ettim.",
+          "Müşteri tarafının döküman yönetim sistemi kullanıcı arayüzü için talep ettiği özgün tasarımı, endüstri standartlarına uygun bir tasarıma dönüştürerek daha alışıldık bir deneyim sağladım"
+        ]
+      },
+      {
+        "title": "Arçelik Arbarkod",
+        "description": "SAPUI5 tabanlı barkod sistemi arayüzü geliştirme",
+        "highlights": [
+          "SAPUI5 teknolojisi ile barkod sistemi için giriş ve işlem ekranlarını tasarladım."
+        ]
+      }
+    ]
+  }
+
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "description": "Yeni projeler ve fırsatlar hakkında duymakla her zaman ilgileniyorum.",
+    "email": "E-posta",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
+}

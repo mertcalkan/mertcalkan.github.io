@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "about": "About",
+    "resume": "Resume",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Frontend Developer",
+    "name": "Mert Calkan",
+    "description": "I combine my passion for creative educational technologies and coding with my ability to develop modern, responsive web applications, creating valuable and interactive experiences for students.",
+    "downloadCV": "Download CV",
+    "contact": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a passionate frontend developer who builds applications with React, TypeScript, and modern web technologies. I love creating intuitive and accessible web applications that make a difference. I also have a strong interest in software that involves creativity."
+  },
+  "resume": {
+    "title": "Resume",
+    "education": {
+      "title": "Education",
+      "items": [{
+        "degree": "Bachelor's Degree in Software Development",
+        "school": "Yeditepe University",
+        "year": "2020-2024",
+        "description": "Graduated with a GPA of 2.92."
+      }]
+    },
+    "technologies": {
+      "title": "Technologies",
+      "items": ["HTML", "CSS", "JavaScript", "TypeScript", "Python", "VS Code", "Vite"]
+    },
+    "frameworks": {
+      "title": "Frameworks & Libraries",
+      "items": ["React", "Next.js", "Node.js", "Express", "TypeScript", "Tailwind CSS", "Mediapipe", "Three.js", "p5.js", "ml5.js"]
+    },
+    "languages": {
+      "title": "Languages",
+      "items": [{
+          "language": "Turkish",
+          "level": "Native"
+        },
+        {
+          "language": "English",
+          "level": "B2 Level"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "seeMore": "See More",
+    "viewProject": "View Project",
+    "items": [{
+        "id": "project-1",
+        "title": "Artortihm",
+        "shortDescription": "A promotional landing page website I created for creative coding education.",
+        "image": "/src/assets/artortihm.png",
+        "url": "https://artortihm.netlify.app"
+      },
+      {
+        "id": "project-2",
+        "title": "Artortihm Edu",
+        "shortDescription": "An interactive educational project with camera-based games focused on child development.",
+        "image": "/src/assets/artortihmedu.png",
+        "url": "https://artorithm-edu.netlify.app"
+      }
+     
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [{
+      "position": "Frontend Developer",
+      "company": "Rast Software",
+      "period": "2022 - 2024",
+      "description": "Developed frontend applications using the Neptune DXP low-code platform, SAPUI5, and vanilla JavaScript solutions.",
+      "highlights": [
+        "Built 3 interconnected web applications for creative coding education",
+        "Integrated advanced technologies like Mediapipe, Three.js, and p5.js",
+        "Created interactive camera-based games for child development"
+      ]
+    }],
+    "projectExperience": {
+      "title": "Project Experience",
+      "items": [{
+          "title": "DEWA Document Management System (DMS)",
+          "description": "UI and integration solutions for corporate document management.",
+          "highlights": [
+            "Developed the user interface and handled frontend-backend integration on Neptune DXP.",
+            "Was on-site in Dubai for the project.",
+            "Assisted in configuring SSO (Single Sign-On) authentication using Principal Propagation and X.509 client certificates.",
+            "Adapted the client's custom UI design request for the DMS to align with industry standards, ensuring a more familiar user experience."
+          ]
+        },
+        {
+          "title": "Arçelik Arbarkod",
+          "description": "SAPUI5-based barcode system UI development.",
+          "highlights": [
+            "Designed login and transaction screens for the barcode system using SAPUI5 technology."
+          ]
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "I'm always interested in hearing about new projects and opportunities.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
+}
