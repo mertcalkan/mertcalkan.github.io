@@ -6,7 +6,7 @@ import { ExternalLink } from 'lucide-react';
 
 // Değişiklik 1: Resimleri doğrudan import ediyoruz.
 import Artorithm from "@/assets/artorithm.png";
-import ArtorithmEdu from "@/assets/artorithmedu.png";
+import ArtorithmEdu from "@/assets/artorithmEdu.png";
 // Diğer projelerin resimleri varsa onları da buraya ekleyebilirsin.
 // import ArtorithmBlocks from "@/assets/artorithmblocks.png";
 
