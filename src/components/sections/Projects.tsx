@@ -7,6 +7,7 @@ import { ExternalLink } from 'lucide-react';
 // Değişiklik 1: Resimleri doğrudan import ediyoruz.
 import Artorithm from "@/assets/artorithm.png";
 import ArtorithmEdu from "@/assets/artorithmEdu.png";
+import ArtorithmLang from "@/assets/artorithmLang.png";
 // Diğer projelerin resimleri varsa onları da buraya ekleyebilirsin.
 // import ArtorithmBlocks from "@/assets/artorithmblocks.png";
 
@@ -30,7 +31,7 @@ const Projects = () => {
   const projectImages = {
     'project-1': Artorithm,
     'project-2': ArtorithmEdu,
-    // 'project-3': ArtorithmBlocks, // Eğer üçüncü resim de varsa
+    'project-3': ArtorithmLang, // Eğer üçüncü resim de varsa
   };
 
   const projectsRaw = t('projects.items', { returnObjects: true });
