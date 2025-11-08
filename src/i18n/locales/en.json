@@ -55,19 +55,28 @@
     "viewProject": "View Project",
     "items": [{
         "id": "project-1",
-        "title": "Artortihm",
+        "title": "Artorithm",
         "shortDescription": "A promotional landing page website I created for creative coding education.",
         "image": "/src/assets/artortihm.png",
         "url": "https://artorithm.netlify.app"
       },
       {
         "id": "project-2",
-        "title": "Artortihm Edu",
+        "title": "Artorithm Edu",
         "shortDescription": "An interactive educational project with camera-based games focused on child development.",
         "image": "/src/assets/artortihmedu.png",
         "url": "https://artorithm-edu.netlify.app"
+      },
+      {
+        "id": "project-3",
+        "title": "Artorithm Lang",
+        "shortDescription": "An interactive camera-based English concept learning project I developed with a focus on child development.",
+        "image": "/src/assets/artorithmLang.png",
+        "url": "https://artorithm-lang.netlify.app"
       }
-     
+
+
+
     ]
   },
   "experience": {

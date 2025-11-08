@@ -55,7 +55,7 @@
     "viewProject": "Projeyi Görüntüle",
     "items": [{
         "id": "project-1",
-        "title": "Artortihm",
+        "title": "Artorithm",
         "shortDescription": "Yaratıcı kodlama eğitimi için oluşturduğum tanıtım amaçlı landing page web sitesi.",
        
         "image": "/src/assets/artortihm.png",
@@ -63,11 +63,19 @@
       },
       {
         "id": "project-2",
-        "title": "Artortihm Edu",
-        "shortDescription": "Çocuk gelişimi odaklı geliştirdiğim interaktif kamera oyunlu eğitim projesi.   ",
+        "title": "Artorithm Edu",
+        "shortDescription": "Çocuk gelişimi odaklı geliştirdiğim interaktif kamera oyunlu eğitim projesi.",
      
         "image": "/src/assets/artortihmedu.png",
         "url": "https://artorithm-edu.netlify.app"
+      },
+        {
+        "id": "project-3",
+        "title": "Artorithm Lang",
+        "shortDescription": "Çocuk gelişimi odaklı geliştirdiğim interaktif kamera oyunlu İngilizce kavramları öğrenme projesi.   ",
+     
+        "image": "/src/assets/artorithmLang.png",
+        "url": "https://artorithm-lang.netlify.app"
       }
       
       
